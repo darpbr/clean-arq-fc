@@ -10,7 +10,7 @@ const input = {
     },
 };
 
-const MockRepository = () => {
+const mockRepository = () => {
     return {
         find: jest.fn(),
         findAll: jest.fn(),
@@ -21,7 +21,7 @@ const MockRepository = () => {
 
 describe("Unit test create customer use case", () => {
     it("should create a customer", async()=>{
-        const customerRepository = MockRepository();
+        const customerRepository = mockRepository();
         const customerCreateUseCase = new CreateCustomerUseCase(customerRepository);
 
         const output = await customerCreateUseCase.execute(input);
@@ -36,5 +36,23 @@ describe("Unit test create customer use case", () => {
                 city: input.address.city,
             },
         });
+    });
+
+    it("should trown an error when name is missing", async() =>{
+        const customerRepository = mockRepository();
+        const customerCreateUseCase = new CreateCustomerUseCase(customerRepository);
+
+        input.name = "";
+
+        await expect(customerCreateUseCase.execute(input)).rejects.toThrow("Name is required");
+    });
+
+    it("should trown an error when street is missing", async() =>{
+        const customerRepository = mockRepository();
+        const customerCreateUseCase = new CreateCustomerUseCase(customerRepository);
+
+        input.address.street = "";
+
+        await expect(customerCreateUseCase.execute(input)).rejects.toThrow("Street is required");
     });
 });
