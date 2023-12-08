@@ -27,9 +27,9 @@ describe("Integration test for listing product usecase", () => {
     const productRepository = new ProductRepository();
     const usecase = new ListProductUseCase(productRepository);
 
-    const product1 = new Product("123", "Caneta", 10);
+    const product1 = new Product("1", "Caneta", 10);
 
-    const product2 = new Product("456", "Lapis", 25);
+    const product2 = new Product("4", "Lapis", 25);
 
     await productRepository.create(product1);
     await productRepository.create(product2);
