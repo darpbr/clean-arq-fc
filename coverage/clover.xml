@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1702034514143" clover="3.2.0">
-  <project timestamp="1702034514143" name="All files">
-    <metrics statements="1083" coveredstatements="1067" conditionals="164" coveredconditionals="155" methods="93" coveredmethods="91" elements="1340" coveredelements="1313" complexity="0" loc="1083" ncloc="1083" packages="24" files="32" classes="32"/>
+<coverage generated="1702517807506" clover="3.2.0">
+  <project timestamp="1702517807506" name="All files">
+    <metrics statements="1083" coveredstatements="1067" conditionals="165" coveredconditionals="156" methods="93" coveredmethods="91" elements="1341" coveredelements="1314" complexity="0" loc="1083" ncloc="1083" packages="24" files="32" classes="32"/>
     <package name="domain.@shared.event">
       <metrics statements="43" coveredstatements="43" conditionals="7" coveredconditionals="7" methods="5" coveredmethods="5"/>
-      <file name="event-dispatcher.ts" path="/home/wsl/treinamento/clean-arq-fc/src/domain/@shared/event/event-dispatcher.ts">
+      <file name="event-dispatcher.ts" path="/home/diego/projetos/node/clean-arq-fc/src/domain/@shared/event/event-dispatcher.ts">
         <metrics statements="43" coveredstatements="43" conditionals="7" coveredconditionals="7" methods="5" coveredmethods="5"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -53,7 +53,7 @@
     </package>
     <package name="domain.checkout.entity">
       <metrics statements="120" coveredstatements="114" conditionals="34" coveredconditionals="33" methods="16" coveredmethods="14"/>
-      <file name="order.ts" path="/home/wsl/treinamento/clean-arq-fc/src/domain/checkout/entity/order.ts">
+      <file name="order.ts" path="/home/diego/projetos/node/clean-arq-fc/src/domain/checkout/entity/order.ts">
         <metrics statements="58" coveredstatements="52" conditionals="16" coveredconditionals="15" methods="8" coveredmethods="6"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -114,7 +114,7 @@
         <line num="57" count="1" type="stmt"/>
         <line num="58" count="1" type="stmt"/>
       </file>
-      <file name="order_item.ts" path="/home/wsl/treinamento/clean-arq-fc/src/domain/checkout/entity/order_item.ts">
+      <file name="order_item.ts" path="/home/diego/projetos/node/clean-arq-fc/src/domain/checkout/entity/order_item.ts">
         <metrics statements="62" coveredstatements="62" conditionals="18" coveredconditionals="18" methods="8" coveredmethods="8"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -182,7 +182,7 @@
     </package>
     <package name="domain.checkout.service">
       <metrics statements="24" coveredstatements="22" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="2"/>
-      <file name="order.service.ts" path="/home/wsl/treinamento/clean-arq-fc/src/domain/checkout/service/order.service.ts">
+      <file name="order.service.ts" path="/home/diego/projetos/node/clean-arq-fc/src/domain/checkout/service/order.service.ts">
         <metrics statements="24" coveredstatements="22" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -212,7 +212,7 @@
     </package>
     <package name="domain.customer.entity">
       <metrics statements="85" coveredstatements="85" conditionals="17" coveredconditionals="17" methods="12" coveredmethods="12"/>
-      <file name="customer.ts" path="/home/wsl/treinamento/clean-arq-fc/src/domain/customer/entity/customer.ts">
+      <file name="customer.ts" path="/home/diego/projetos/node/clean-arq-fc/src/domain/customer/entity/customer.ts">
         <metrics statements="85" coveredstatements="85" conditionals="17" coveredconditionals="17" methods="12" coveredmethods="12"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -303,7 +303,7 @@
     </package>
     <package name="domain.customer.event.customer">
       <metrics statements="39" coveredstatements="39" conditionals="5" coveredconditionals="5" methods="5" coveredmethods="5"/>
-      <file name="customer-changed-address.event.ts" path="/home/wsl/treinamento/clean-arq-fc/src/domain/customer/event/customer/customer-changed-address.event.ts">
+      <file name="customer-changed-address.event.ts" path="/home/diego/projetos/node/clean-arq-fc/src/domain/customer/event/customer/customer-changed-address.event.ts">
         <metrics statements="27" coveredstatements="27" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -333,7 +333,7 @@
         <line num="26" count="23" type="stmt"/>
         <line num="27" count="1" type="stmt"/>
       </file>
-      <file name="customer-created.event.ts" path="/home/wsl/treinamento/clean-arq-fc/src/domain/customer/event/customer/customer-created.event.ts">
+      <file name="customer-created.event.ts" path="/home/diego/projetos/node/clean-arq-fc/src/domain/customer/event/customer/customer-created.event.ts">
         <metrics statements="12" coveredstatements="12" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -351,7 +351,7 @@
     </package>
     <package name="domain.customer.event.customer.handler">
       <metrics statements="32" coveredstatements="32" conditionals="3" coveredconditionals="3" methods="3" coveredmethods="3"/>
-      <file name="envia-console-log-1-handler.handler.ts" path="/home/wsl/treinamento/clean-arq-fc/src/domain/customer/event/customer/handler/envia-console-log-1-handler.handler.ts">
+      <file name="envia-console-log-1-handler.handler.ts" path="/home/diego/projetos/node/clean-arq-fc/src/domain/customer/event/customer/handler/envia-console-log-1-handler.handler.ts">
         <metrics statements="10" coveredstatements="10" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -364,7 +364,7 @@
         <line num="9" count="1" type="stmt"/>
         <line num="10" count="1" type="stmt"/>
       </file>
-      <file name="envia-console-log-2-handler.handler.ts" path="/home/wsl/treinamento/clean-arq-fc/src/domain/customer/event/customer/handler/envia-console-log-2-handler.handler.ts">
+      <file name="envia-console-log-2-handler.handler.ts" path="/home/diego/projetos/node/clean-arq-fc/src/domain/customer/event/customer/handler/envia-console-log-2-handler.handler.ts">
         <metrics statements="11" coveredstatements="11" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -378,7 +378,7 @@
         <line num="10" count="1" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
       </file>
-      <file name="envia-console-log-handler.handler.ts" path="/home/wsl/treinamento/clean-arq-fc/src/domain/customer/event/customer/handler/envia-console-log-handler.handler.ts">
+      <file name="envia-console-log-handler.handler.ts" path="/home/diego/projetos/node/clean-arq-fc/src/domain/customer/event/customer/handler/envia-console-log-handler.handler.ts">
         <metrics statements="11" coveredstatements="11" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -395,7 +395,7 @@
     </package>
     <package name="domain.customer.factory">
       <metrics statements="15" coveredstatements="15" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
-      <file name="customer.factory.ts" path="/home/wsl/treinamento/clean-arq-fc/src/domain/customer/factory/customer.factory.ts">
+      <file name="customer.factory.ts" path="/home/diego/projetos/node/clean-arq-fc/src/domain/customer/factory/customer.factory.ts">
         <metrics statements="15" coveredstatements="15" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -416,7 +416,7 @@
     </package>
     <package name="domain.customer.value-object">
       <metrics statements="50" coveredstatements="44" conditionals="14" coveredconditionals="11" methods="7" coveredmethods="7"/>
-      <file name="address.ts" path="/home/wsl/treinamento/clean-arq-fc/src/domain/customer/value-object/address.ts">
+      <file name="address.ts" path="/home/diego/projetos/node/clean-arq-fc/src/domain/customer/value-object/address.ts">
         <metrics statements="50" coveredstatements="44" conditionals="14" coveredconditionals="11" methods="7" coveredmethods="7"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -472,7 +472,7 @@
     </package>
     <package name="domain.product.entity">
       <metrics statements="49" coveredstatements="49" conditionals="14" coveredconditionals="14" methods="7" coveredmethods="7"/>
-      <file name="product.ts" path="/home/wsl/treinamento/clean-arq-fc/src/domain/product/entity/product.ts">
+      <file name="product.ts" path="/home/diego/projetos/node/clean-arq-fc/src/domain/product/entity/product.ts">
         <metrics statements="49" coveredstatements="49" conditionals="14" coveredconditionals="14" methods="7" coveredmethods="7"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -481,36 +481,36 @@
         <line num="5" count="1" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
         <line num="7" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="8" count="38" type="stmt"/>
-        <line num="9" count="38" type="stmt"/>
-        <line num="10" count="38" type="stmt"/>
-        <line num="11" count="38" type="stmt"/>
-        <line num="12" count="38" type="stmt"/>
+        <line num="8" count="37" type="stmt"/>
+        <line num="9" count="37" type="stmt"/>
+        <line num="10" count="37" type="stmt"/>
+        <line num="11" count="37" type="stmt"/>
+        <line num="12" count="37" type="stmt"/>
         <line num="13" count="1" type="stmt"/>
         <line num="14" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="15" count="43" type="stmt"/>
-        <line num="16" count="43" type="stmt"/>
+        <line num="15" count="42" type="stmt"/>
+        <line num="16" count="42" type="stmt"/>
         <line num="17" count="1" type="stmt"/>
         <line num="18" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="19" count="42" type="stmt"/>
-        <line num="20" count="42" type="stmt"/>
+        <line num="19" count="41" type="stmt"/>
+        <line num="20" count="41" type="stmt"/>
         <line num="21" count="1" type="stmt"/>
         <line num="22" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="23" count="47" type="stmt"/>
-        <line num="24" count="47" type="stmt"/>
+        <line num="23" count="46" type="stmt"/>
+        <line num="24" count="46" type="stmt"/>
         <line num="25" count="1" type="stmt"/>
         <line num="26" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="27" count="51" type="cond" truecount="1" falsecount="0"/>
+        <line num="27" count="50" type="cond" truecount="1" falsecount="0"/>
         <line num="28" count="1" type="stmt"/>
         <line num="29" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="30" count="51" type="cond" truecount="1" falsecount="0"/>
+        <line num="30" count="50" type="cond" truecount="1" falsecount="0"/>
         <line num="31" count="3" type="stmt"/>
         <line num="32" count="3" type="cond" truecount="1" falsecount="0"/>
-        <line num="33" count="51" type="cond" truecount="2" falsecount="0"/>
+        <line num="33" count="50" type="cond" truecount="2" falsecount="0"/>
         <line num="34" count="3" type="stmt"/>
         <line num="35" count="3" type="cond" truecount="1" falsecount="0"/>
-        <line num="36" count="44" type="stmt"/>
-        <line num="37" count="44" type="stmt"/>
+        <line num="36" count="43" type="stmt"/>
+        <line num="37" count="43" type="stmt"/>
         <line num="38" count="1" type="stmt"/>
         <line num="39" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="40" count="6" type="stmt"/>
@@ -527,7 +527,7 @@
     </package>
     <package name="domain.product.event">
       <metrics statements="12" coveredstatements="12" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
-      <file name="product-created.event.ts" path="/home/wsl/treinamento/clean-arq-fc/src/domain/product/event/product-created.event.ts">
+      <file name="product-created.event.ts" path="/home/diego/projetos/node/clean-arq-fc/src/domain/product/event/product-created.event.ts">
         <metrics statements="12" coveredstatements="12" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -545,7 +545,7 @@
     </package>
     <package name="domain.product.event.handler">
       <metrics statements="9" coveredstatements="9" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
-      <file name="send-email-when-product-is-created.handler.ts" path="/home/wsl/treinamento/clean-arq-fc/src/domain/product/event/handler/send-email-when-product-is-created.handler.ts">
+      <file name="send-email-when-product-is-created.handler.ts" path="/home/diego/projetos/node/clean-arq-fc/src/domain/product/event/handler/send-email-when-product-is-created.handler.ts">
         <metrics statements="9" coveredstatements="9" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -560,7 +560,7 @@
     </package>
     <package name="domain.product.factory">
       <metrics statements="9" coveredstatements="9" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
-      <file name="product.factory.ts" path="/home/wsl/treinamento/clean-arq-fc/src/domain/product/factory/product.factory.ts">
+      <file name="product.factory.ts" path="/home/diego/projetos/node/clean-arq-fc/src/domain/product/factory/product.factory.ts">
         <metrics statements="9" coveredstatements="9" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -575,7 +575,7 @@
     </package>
     <package name="domain.product.service">
       <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-      <file name="product.service.ts" path="/home/wsl/treinamento/clean-arq-fc/src/domain/product/service/product.service.ts">
+      <file name="product.service.ts" path="/home/diego/projetos/node/clean-arq-fc/src/domain/product/service/product.service.ts">
         <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -591,7 +591,7 @@
     </package>
     <package name="infrastructure.customer.repository.sequelize">
       <metrics statements="117" coveredstatements="117" conditionals="7" coveredconditionals="7" methods="4" coveredmethods="4"/>
-      <file name="customer.model.ts" path="/home/wsl/treinamento/clean-arq-fc/src/infrastructure/customer/repository/sequelize/customer.model.ts">
+      <file name="customer.model.ts" path="/home/diego/projetos/node/clean-arq-fc/src/infrastructure/customer/repository/sequelize/customer.model.ts">
         <metrics statements="33" coveredstatements="33" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -627,7 +627,7 @@
         <line num="32" count="1" type="stmt"/>
         <line num="33" count="1" type="stmt"/>
       </file>
-      <file name="customer.repository.ts" path="/home/wsl/treinamento/clean-arq-fc/src/infrastructure/customer/repository/sequelize/customer.repository.ts">
+      <file name="customer.repository.ts" path="/home/diego/projetos/node/clean-arq-fc/src/infrastructure/customer/repository/sequelize/customer.repository.ts">
         <metrics statements="84" coveredstatements="84" conditionals="7" coveredconditionals="7" methods="4" coveredmethods="4"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -717,7 +717,7 @@
     </package>
     <package name="infrastructure.order.repository.sequelize">
       <metrics statements="165" coveredstatements="163" conditionals="21" coveredconditionals="17" methods="4" coveredmethods="4"/>
-      <file name="order-item.model.ts" path="/home/wsl/treinamento/clean-arq-fc/src/infrastructure/order/repository/sequelize/order-item.model.ts">
+      <file name="order-item.model.ts" path="/home/diego/projetos/node/clean-arq-fc/src/infrastructure/order/repository/sequelize/order-item.model.ts">
         <metrics statements="37" coveredstatements="37" conditionals="6" coveredconditionals="4" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -757,7 +757,7 @@
         <line num="36" count="1" type="stmt"/>
         <line num="37" count="1" type="stmt"/>
       </file>
-      <file name="order.model.ts" path="/home/wsl/treinamento/clean-arq-fc/src/infrastructure/order/repository/sequelize/order.model.ts">
+      <file name="order.model.ts" path="/home/diego/projetos/node/clean-arq-fc/src/infrastructure/order/repository/sequelize/order.model.ts">
         <metrics statements="27" coveredstatements="27" conditionals="4" coveredconditionals="3" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -787,7 +787,7 @@
         <line num="26" count="1" type="stmt"/>
         <line num="27" count="1" type="stmt"/>
       </file>
-      <file name="order.repository.ts" path="/home/wsl/treinamento/clean-arq-fc/src/infrastructure/order/repository/sequelize/order.repository.ts">
+      <file name="order.repository.ts" path="/home/diego/projetos/node/clean-arq-fc/src/infrastructure/order/repository/sequelize/order.repository.ts">
         <metrics statements="101" coveredstatements="99" conditionals="11" coveredconditionals="10" methods="4" coveredmethods="4"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -893,8 +893,8 @@
       </file>
     </package>
     <package name="infrastructure.product.repository.sequelize">
-      <metrics statements="61" coveredstatements="61" conditionals="5" coveredconditionals="5" methods="4" coveredmethods="4"/>
-      <file name="product.model.ts" path="/home/wsl/treinamento/clean-arq-fc/src/infrastructure/product/repository/sequelize/product.model.ts">
+      <metrics statements="61" coveredstatements="61" conditionals="6" coveredconditionals="6" methods="4" coveredmethods="4"/>
+      <file name="product.model.ts" path="/home/diego/projetos/node/clean-arq-fc/src/infrastructure/product/repository/sequelize/product.model.ts">
         <metrics statements="18" coveredstatements="18" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -915,8 +915,8 @@
         <line num="17" count="1" type="stmt"/>
         <line num="18" count="1" type="stmt"/>
       </file>
-      <file name="product.repository.ts" path="/home/wsl/treinamento/clean-arq-fc/src/infrastructure/product/repository/sequelize/product.repository.ts">
-        <metrics statements="43" coveredstatements="43" conditionals="5" coveredconditionals="5" methods="4" coveredmethods="4"/>
+      <file name="product.repository.ts" path="/home/diego/projetos/node/clean-arq-fc/src/infrastructure/product/repository/sequelize/product.repository.ts">
+        <metrics statements="43" coveredstatements="43" conditionals="6" coveredconditionals="6" methods="4" coveredmethods="4"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
@@ -928,8 +928,8 @@
         <line num="9" count="16" type="stmt"/>
         <line num="10" count="16" type="stmt"/>
         <line num="11" count="16" type="stmt"/>
-        <line num="12" count="16" type="stmt"/>
-        <line num="13" count="16" type="stmt"/>
+        <line num="12" count="16" type="cond" truecount="1" falsecount="0"/>
+        <line num="13" count="15" type="stmt"/>
         <line num="14" count="1" type="stmt"/>
         <line num="15" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="16" count="2" type="stmt"/>
@@ -945,14 +945,14 @@
         <line num="26" count="2" type="stmt"/>
         <line num="27" count="1" type="stmt"/>
         <line num="28" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="29" count="3" type="stmt"/>
-        <line num="30" count="3" type="stmt"/>
-        <line num="31" count="3" type="stmt"/>
-        <line num="32" count="3" type="stmt"/>
-        <line num="33" count="3" type="stmt"/>
-        <line num="34" count="3" type="stmt"/>
-        <line num="35" count="3" type="stmt"/>
-        <line num="36" count="3" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="32" count="2" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="36" count="2" type="stmt"/>
         <line num="37" count="1" type="stmt"/>
         <line num="38" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="39" count="2" type="stmt"/>
@@ -964,7 +964,7 @@
     </package>
     <package name="usecase.customer.create">
       <metrics statements="36" coveredstatements="36" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
-      <file name="create.customer.usecase.ts" path="/home/wsl/treinamento/clean-arq-fc/src/usecase/customer/create/create.customer.usecase.ts">
+      <file name="create.customer.usecase.ts" path="/home/diego/projetos/node/clean-arq-fc/src/usecase/customer/create/create.customer.usecase.ts">
         <metrics statements="36" coveredstatements="36" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -1006,7 +1006,7 @@
     </package>
     <package name="usecase.customer.find">
       <metrics statements="25" coveredstatements="25" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
-      <file name="find.customer.usecase.ts" path="/home/wsl/treinamento/clean-arq-fc/src/usecase/customer/find/find.customer.usecase.ts">
+      <file name="find.customer.usecase.ts" path="/home/diego/projetos/node/clean-arq-fc/src/usecase/customer/find/find.customer.usecase.ts">
         <metrics statements="25" coveredstatements="25" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -1037,7 +1037,7 @@
     </package>
     <package name="usecase.customer.list">
       <metrics statements="37" coveredstatements="37" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
-      <file name="list.customer.usecase.ts" path="/home/wsl/treinamento/clean-arq-fc/src/usecase/customer/list/list.customer.usecase.ts">
+      <file name="list.customer.usecase.ts" path="/home/diego/projetos/node/clean-arq-fc/src/usecase/customer/list/list.customer.usecase.ts">
         <metrics statements="37" coveredstatements="37" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -1080,7 +1080,7 @@
     </package>
     <package name="usecase.customer.update">
       <metrics statements="43" coveredstatements="43" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
-      <file name="update.customer.usecase.ts" path="/home/wsl/treinamento/clean-arq-fc/src/usecase/customer/update/update.customer.usecase.ts">
+      <file name="update.customer.usecase.ts" path="/home/diego/projetos/node/clean-arq-fc/src/usecase/customer/update/update.customer.usecase.ts">
         <metrics statements="43" coveredstatements="43" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -1129,7 +1129,7 @@
     </package>
     <package name="usecase.product.create">
       <metrics statements="25" coveredstatements="25" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
-      <file name="create.product.usecase.ts" path="/home/wsl/treinamento/clean-arq-fc/src/usecase/product/create/create.product.usecase.ts">
+      <file name="create.product.usecase.ts" path="/home/diego/projetos/node/clean-arq-fc/src/usecase/product/create/create.product.usecase.ts">
         <metrics statements="25" coveredstatements="25" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -1160,7 +1160,7 @@
     </package>
     <package name="usecase.product.find">
       <metrics statements="20" coveredstatements="20" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
-      <file name="find.product.usecase.ts" path="/home/wsl/treinamento/clean-arq-fc/src/usecase/product/find/find.product.usecase.ts">
+      <file name="find.product.usecase.ts" path="/home/diego/projetos/node/clean-arq-fc/src/usecase/product/find/find.product.usecase.ts">
         <metrics statements="20" coveredstatements="20" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -1173,20 +1173,20 @@
         <line num="9" count="3" type="stmt"/>
         <line num="10" count="1" type="stmt"/>
         <line num="11" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="12" count="3" type="cond" truecount="1" falsecount="0"/>
-        <line num="13" count="2" type="stmt"/>
-        <line num="14" count="2" type="stmt"/>
-        <line num="15" count="2" type="stmt"/>
-        <line num="16" count="2" type="stmt"/>
-        <line num="17" count="2" type="stmt"/>
-        <line num="18" count="2" type="stmt"/>
-        <line num="19" count="2" type="stmt"/>
+        <line num="12" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
         <line num="20" count="1" type="stmt"/>
       </file>
     </package>
     <package name="usecase.product.list">
       <metrics statements="29" coveredstatements="29" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
-      <file name="list.product.usecase.ts" path="/home/wsl/treinamento/clean-arq-fc/src/usecase/product/list/list.product.usecase.ts">
+      <file name="list.product.usecase.ts" path="/home/diego/projetos/node/clean-arq-fc/src/usecase/product/list/list.product.usecase.ts">
         <metrics statements="29" coveredstatements="29" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -1221,7 +1221,7 @@
     </package>
     <package name="usecase.product.update">
       <metrics statements="28" coveredstatements="28" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
-      <file name="update.product.usecase.ts" path="/home/wsl/treinamento/clean-arq-fc/src/usecase/product/update/update.product.usecase.ts">
+      <file name="update.product.usecase.ts" path="/home/diego/projetos/node/clean-arq-fc/src/usecase/product/update/update.product.usecase.ts">
         <metrics statements="28" coveredstatements="28" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
